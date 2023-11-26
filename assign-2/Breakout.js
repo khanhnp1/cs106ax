@@ -62,6 +62,7 @@ function Breakout() {
 
     let vx = 1;
     let vy = 1;
+    let debug = true;
     let step = function() {
 
         if (brick_cnt == 0 || n_balls == 0) {
@@ -69,8 +70,14 @@ function Breakout() {
             return;
         }
 
-        if(pause || !start) 
-            return;        
+        if(pause || !start) {
+            if (debug) {
+                console.log("vx: ", +vx);
+                console.log("vy: ", +vy);
+                debug = false;
+            }             
+            return;
+        }
 
         vx = (ball_x >= (GWINDOW_WIDTH - BALL_SIZE/2) || ball_x <= 0) ? (-vx) : vx;
         vy = (ball_y <= 0) ? (-vy) : vy;        
@@ -128,6 +135,7 @@ function Breakout() {
 
     let clickAction = function() {
         start = true;
+        debug = false;
         pause = !pause;
     }
     gw.addEventListener("click", clickAction);
