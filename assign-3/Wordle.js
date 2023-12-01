@@ -230,7 +230,7 @@ function Wordle() {
       let key = getKeystrokeLetter(e);
       if (key != null)
         keyClicked(key);
-    }
+    };
     gw.addEventListener("keydown", keyStrokeHandle);
   }
 
