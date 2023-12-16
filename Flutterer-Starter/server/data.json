@@ -1,0 +1,90 @@
+{
+    "11": {
+        "id": "11",
+        "message": "I love this assignment!",
+        "timestamp": "Tue Nov 19 01:50:50 2019",
+        "username": "Doris",
+        "liked_by": [
+            "Colin Schultz",
+            "Avi Gupta",
+            "Artur Carniero"
+        ],
+        "comments": []
+    },
+    "13": {
+        "id": "13",
+        "message": "Hello world! I am Avi.",
+        "timestamp": "Tue Nov 19 01:55:11 2019",
+        "username": "Avi Gupta",
+        "liked_by": [
+            "Jerry Cain",
+            "Kaia Li",
+            "Colin Schultz"
+        ],
+        "comments": [
+            {
+                "id": "97313487-4275-45f1-98f9-072c4f1aea15",
+                "message": "Anybody want to go grab dinner on the Row?",
+                "username": "Ashlee Kupor"
+            },
+            {
+                "id": "3bc6d69a-4fc1-4ff1-a8a0-bcabf7c78ae4",
+                "message": "I'll get dinner with you!",
+                "username": "Yubin Jee"
+            },
+            {
+                "id": "85c3e021-1643-4191-8f0d-a48c5bc7fc00",
+                "message": "Sweet!",
+                "username": "Ashlee Kupor"
+            }
+        ]
+    },
+    "5e074add-628d-4cf1-af37-d090f485df67": {
+        "id": "5e074add-628d-4cf1-af37-d090f485df67",
+        "message": "So excited for winter break. What are you all doing?",
+        "timestamp": "Wed Nov 20 06:08:19 2019",
+        "username": "Colin Schultz",
+        "liked_by": [
+            "Jerry Cain",
+            "Avi Gupta"
+        ],
+        "comments": [
+            {
+                "id": "86bf5ef6-7ca3-42cc-8347-5f277fc13778",
+                "message": "How about a staff trip to Tahoe?",
+                "username": "Avi Gupta"
+            },
+            {
+                "id": "b7d1a8e9-4f26-498b-9d0a-3c8e6a721f55",
+                "message": "Let's do it!",
+                "username": "Artur Carniero"
+            }
+        ]
+    },
+    "fb62f748-87d4-4f6f-b8b6-d16c76d9ad0e": {
+        "id": "fb62f748-87d4-4f6f-b8b6-d16c76d9ad0e",
+        "message": "Has everybody met Doris?",
+        "timestamp": "Thu Nov 21 10:54:32 2019",
+        "username": "Jerry Cain",
+        "liked_by": [
+            "Yubin Jee",
+            "Avi Gupta",
+            "Colin Schultz",
+            "Ashlee Kupor",
+            "Jerry Cain"
+        ],
+        "comments": [
+            {
+                "id": "a2e7d4f8-6b91-4c23-af4d-9e8c1b72d3e2",
+                "message": "Doris is the cutest.",
+                "username": "Kaia Li"
+            },
+            {
+                "id": "f1a9c2d3-8e46-4a77-b59c-57f8a1d0cf9",
+                "message": "Hey everyone!",
+                "username": "Doris"
+            }
+
+        ]
+    }
+}
